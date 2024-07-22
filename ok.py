@@ -1,3 +1,5 @@
+import os
+os.system("wget https://archive.mozilla.org/pub/firefox/releases/121.0/linux-x86_64/en-US/firefox-121.0.tar.bz2 && wget https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-linux64.tar.gz")
 import tarfile
 with tarfile.open('firefox-121.0.tar.bz2', 'r') as archive:
     archive.extractall()
