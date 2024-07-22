@@ -23,7 +23,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver import FirefoxOptions
-from selenium.webdriver.chrome.service import Service
 
 def random_char(y):
   return ''.join(random.choice(string.ascii_letters) for x in range(y))
