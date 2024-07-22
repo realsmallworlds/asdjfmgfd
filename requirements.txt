@@ -1,4 +1,1 @@
-tempmail-python
-urlextract
-xtarfile
-selenium==3.141.0
+
