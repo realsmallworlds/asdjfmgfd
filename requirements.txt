@@ -1,3 +1,4 @@
 tempmail-python
 urlextract
 xtarfile
+selenium
