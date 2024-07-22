@@ -1,4 +1,4 @@
 tempmail-python
 urlextract
 xtarfile
-selenium
+selenium==3.141.0
