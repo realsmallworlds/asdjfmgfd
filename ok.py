@@ -69,6 +69,7 @@ while i < 1:
         wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/div[2]/div/div/div[1]/div/div[1]/div/video-js/button'))).click()
         print("done")
         time.sleep(3700)
+        driver.quit()
     #except:
         print("error")
         driver.quit()
