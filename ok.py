@@ -1,5 +1,5 @@
 import os
-os.system("wget https://archive.mozilla.org/pub/firefox/releases/121.0/linux-x86_64/en-US/firefox-121.0.tar.bz2 && wget https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-linux64.tar.gz && pip install --upgrade urllib3==1.26.16 && pip install selenium && pip install xtarfile && pip install tempmail-python && pip install urlextract && tar -xf firefox-121.0.tar.bz2 && tar -xf geckodriver-v0.34.0-linux64.tar.gz")
+os.system("wget https://archive.mozilla.org/pub/firefox/releases/121.0/linux-x86_64/en-US/firefox-121.0.tar.bz2 && wget https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-linux64.tar.gz && pip install --upgrade urllib3==1.26.16 && pip install selenium==3.141.0 && pip install xtarfile && pip install tempmail-python && pip install urlextract && tar -xf firefox-121.0.tar.bz2 && tar -xf geckodriver-v0.34.0-linux64.tar.gz")
 from tempmail import EMail
 from urlextract import URLExtract
 import time
