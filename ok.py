@@ -33,7 +33,6 @@ binary = FirefoxBinary("./firefox/firefox")
 opts = FirefoxOptions()
 opts.add_argument("--headless")
 opts.set_preference('detach', True)
-service = Service(executable_path='./geckodriver')
 
 i = 0
 while i < 1:
@@ -41,7 +40,7 @@ while i < 1:
         email = EMail()
         name = random_char(5)
         name_2 = random_char(5)
-        driver = webdriver.Firefox(service=service, firefox_binary=binary,options=opts)
+        driver = webdriver.Firefox(executable_path="./geckodriver", firefox_binary=binary,options=opts)
         print("starting")
         wait = WebDriverWait(driver, 30)
         driver.get("https://myco.io/")
